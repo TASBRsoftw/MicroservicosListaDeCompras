@@ -10,22 +10,8 @@
       "/categories",
       "/search"
     ],
-    "registeredAt": "2025-09-21T22:20:54.304Z",
-    "lastHealthCheck": "2025-09-21T22:22:24.333Z",
-    "healthy": true
-  },
-  "list-service": {
-    "url": "http://localhost:3002",
-    "version": "1.0.0",
-    "database": "JSON-NoSQL",
-    "endpoints": [
-      "/health",
-      "/lists",
-      "/lists/:id",
-      "/lists/:id/items/:itemId"
-    ],
-    "registeredAt": "2025-09-21T22:20:54.317Z",
-    "lastHealthCheck": "2025-09-21T22:22:24.348Z",
+    "registeredAt": "2025-09-22T02:28:10.789Z",
+    "lastHealthCheck": "2025-09-22T02:39:20.717Z",
     "healthy": true
   },
   "user-service": {
@@ -38,8 +24,22 @@
       "/auth/login",
       "/users/:id"
     ],
-    "registeredAt": "2025-09-21T22:20:55.396Z",
-    "lastHealthCheck": "2025-09-21T22:22:25.424Z",
+    "registeredAt": "2025-09-22T02:33:51.626Z",
+    "lastHealthCheck": "2025-09-22T02:39:21.721Z",
+    "healthy": true
+  },
+  "list-service": {
+    "url": "http://localhost:3002",
+    "version": "1.0.0",
+    "database": "JSON-NoSQL",
+    "endpoints": [
+      "/health",
+      "/lists",
+      "/lists/:id",
+      "/lists/:id/items/:itemId"
+    ],
+    "registeredAt": "2025-09-22T02:33:01.913Z",
+    "lastHealthCheck": "2025-09-22T02:38:20.700Z",
     "healthy": true
   }
 }
